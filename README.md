@@ -8,7 +8,9 @@
 pkg update
 pkg upgrade
 apt-get install php -y
-apt install git  https://github.com/KANGBADRU/LITESPAMSMS
+pkg install git  
+git clone https://github.com/KANGBADRU/LITESPAMSMS
+
 ls
 cd LITESPAMSMS
 sh install.sh
